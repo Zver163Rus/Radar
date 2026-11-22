@@ -1,0 +1,1 @@
+run: flutter create --org ru.around --project-name around_app --platforms android .
