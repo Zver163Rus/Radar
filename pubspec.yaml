@@ -1,0 +1,19 @@
+name: around_app
+description: Вокруг — видишь своих рядом
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+  http: ^1.2.0
+  shared_preferences: ^2.3.2
+
+flutter:
+  uses-material-design: true
